@@ -43,10 +43,10 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **FOR EXAMPLE, THESE ARE MY SERVER'S INFORMATION**
 
-- `Name     Username       IP Addresses        State`
-- `WEB-01     ubuntu		 64.301.68.464     running`	
-- `WEB-02     ubuntu		 92.257.865.139     running`	
-- `LB-01     ubuntu     37.932.72.138     running`
+- `Name     Username       IP Addresses          State`
+- `WEB-01     ubuntu		 64.301.68.464    running`	
+- `WEB-02     ubuntu		 92.257.865.139   running`	
+- `LB-01     ubuntu     37.932.72.138   running`
 
 
 # `HOW TO BACKUP WEB-01`
