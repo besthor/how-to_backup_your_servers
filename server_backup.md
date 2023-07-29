@@ -18,38 +18,51 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **Go to the alx-system_engineering-devops repository**
 
-```cd alx-system_engineering-devops```
+```
+cd alx-system_engineering-devops
+```
  - **Make a new directory and call it web-servers_backup**
 
-```mkdir web-servers_backup```
+```
+mkdir web-servers_backup
+```
 
 - **Go into the new directory**
 
-```cd web-servers_backup```
+```
+cd web-servers_backup
+```
 
 - **Update your packages**
 
-`sudo apt update`
+```
+sudo apt update
+```
 
 - **Install rsync**
 
-`sudo apt install -y rsync`
+```sudo apt install -y rsync
+```
 
 - **Verify if installation was successfully done**
 
-`rsync  --version`
+```
+rsync  --version
+```
 
 - **Determine Remote Server Connection**
 
 - **FOR EXAMPLE, THESE ARE MY SERVER'S INFORMATION**
 
-- `Name     Username       IP Addresses            State`
-- `WEB-01    ubuntu		64.301.68.464    running`	
-- `WEB-02     ubuntu	  92.257.865.139     running`	
-- `LB-01      ubuntu    37.932.72.138    running`
+```
+Name    Username    IP Addresses    State
+WEB-01    ubuntu    64.301.68.464    running
+WEB-02    ubuntu    92.257.865.139    running
+LB-01    ubuntu    37.932.72.138    running
+```
 
 
-# `HOW TO BACKUP WEB-01`
+# HOW TO BACKUP WEB-01
 
 - **Use the following command and ADD any RELEVANT applications or directories you wish to backup**
 - **Such as: nginx, HAproxy, MySQL, UFW, DataDog and so on...**
@@ -60,17 +73,21 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **Start the Backup for WEB-01
 
-`rsync -avz  ubuntu@64.301.68.464:/etc/nginx :/etc/ufw :/etc/mysql  :/etc/datadog-agent :/var/www  /alx-system_engineering-devops/web-servers_backup/web-01_backup`
+```
+rsync -avz  ubuntu@64.301.68.464:/etc/nginx :/etc/ufw :/etc/mysql  :/etc/datadog-agent :/var/www  /alx-system_engineering-devops/web-servers_backup/web-01_backup
+```
 
 
 # EXTRA INFORMATION
-`The options i have used in the above command are as follows:
+```
+The options i have used in the above command are as follows:
 -a: Archive mode (preserves permissions, ownership, timestamps, etc.).
 -v: Verbose output (to see the progress of the upload).
--z: Compresses the data during transfer to speed up the process.`
+-z: Compresses the data during transfer to speed up the process.
+```
 
 
-# `HOW TO BACKUP WEB-02`
+# HOW TO BACKUP WEB-02
 
 - **Use the following command and ADD any RELEVANT applications or directories you wish to backup**
 - **Such as: nginx, HAproxy, MySQL, UFW, DataDog and so on...**
@@ -82,11 +99,13 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **Start the Backup for WEB-02**
 
-`rsync -avz ubuntu@92.257.865.139:/etc/nginx :/etc/ufw :/etc/mysql :/etc/datadog-agent :/var/www /alx-system_engineering-devops/web-servers_backup/web-02_backup`
+```
+rsync -avz ubuntu@92.257.865.139:/etc/nginx  :/etc/ufw  :/etc/mysql  :/etc/datadog-agent :/var/www /alx-system_engineering-devops/web-servers_backup/web-02_backup
+```
 
 
 
-# `HOW TO BACKUP LB-01`
+# HOW TO BACKUP LB-01
 
 - **Use the following command and ADD any RELEVANT applications or directories you wish to backup**
 - **Such as: nginx, HAproxy, UFW, DataDog and so on...** 
@@ -99,23 +118,33 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **Start the Backup for LB-01**
 
-`rsync -avz  ubuntu@37.932.72.138:/etc/nginx :/etc/ufw :/etc/haproxy :/etc/letsencrypt  :/etc/ssl  :/etc/datadog-agent  /alx-system_engineering-devops/web-servers_backup/lb-01_backup`
+```
+rsync -avz  ubuntu@37.932.72.138:/etc/nginx :/etc/ufw :/etc/haproxy :/etc/letsencrypt  :/etc/ssl  :/etc/datadog-agent  /alx-system_engineering-devops/web-servers_backup/lb-01_backup
+```
 
 - **Add a README file**
   
-`echo "web server backup" > README.md`
+```
+echo "web server backup" > README.md
+```
 
 - **list the files to confirm all files**
 
-`ls `
+```
+ls
+```
 
 - **You should see:**
 
-`lb-01_backup  README.md  web-01_backup  web-02_backup`
+```
+lb-01_backup  README.md  web-01_backup  web-02_backup
+```
 
 - **Now git add these files to keep them safe**
 
-`git add lb-01_backup  web-01_backup  web-02_backup && git commit -m "backedup" && git push`
+```
+git add lb-01_backup  web-01_backup  web-02_backup && git commit -m "backedup" && git push
+```
 
 - **After completing these steps, you should have a backup of your server's content on your local Ubuntu terminal and also on your GitHub,
 allowing you to access the files even after the server destruction.**
