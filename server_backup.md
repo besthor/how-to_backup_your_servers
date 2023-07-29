@@ -18,14 +18,14 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 - **Go to the alx-system_engineering-devops repository**
 
-`cd alx-system_engineering-devops`
+```cd alx-system_engineering-devops```
  - **Make a new directory and call it web-servers_backup**
 
-`mkdir web-servers_backup`
+```mkdir web-servers_backup```
 
 - **Go into the new directory**
 
-`cd web-servers_backup`
+```cd web-servers_backup```
 
 - **Update your packages**
 
