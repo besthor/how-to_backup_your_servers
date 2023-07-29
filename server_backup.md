@@ -160,5 +160,5 @@ allowing you to access the files even after the server destruction.**
 
 ## I'll be posting tutorials on how to upload files and applications from your local Ubuntu terminal to your newly created servers.
 
-# `Thank you and Wishing you the best of luck with your server backup process!`
+# `Thank you and Wishing you the very best of luck with your server backup process!`
 
