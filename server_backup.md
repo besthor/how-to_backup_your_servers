@@ -3,7 +3,9 @@
 ``Caution: This is a concise and straightforward guide. I strongly recommend that you diligently and attentively adhere to these instructions, following each step carefully. Failure to do so may result in the loss of all your installations/configurations, necessitating a laborious repetition of those cumbersome tasks.``
 
 ## `THE CHOICE IS YOURS!`
+![](https://static.vecteezy.com/system/resources/previews/008/258/640/original/desktop-and-cloud-server-email-data-transfer-free-vector.jpg)
 
+![](https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX8398534.jpg)
 **If you've received a notification that your web servers will be destroyed soon, it's essential to act quickly and back up your data to ensure you don't lose any valuable information. To back up your servers to your local Ubuntu terminal, you can use the `rsync` command, which is a powerful tool for syncing files between a local and remote location.**
 
 
