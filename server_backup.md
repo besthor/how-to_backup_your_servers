@@ -1,9 +1,6 @@
 # `HOW TO BACKUP YOUR WEB SERVERS`
 
-``WARNING!!!
-THIS IS JUST A SIMPLE AND SHORT GUIDE
-I'D ADVISE TO PLEASE PATIENTLY AND CAREFULLY FOLLOW THESE INSTRUCTIONS STEP BY STEP
-OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY REPEAT THOSE CUMBERSOME TASKS ALL OVER AGAIN``
+``Caution: This is a concise and straightforward guide. I strongly recommend that you diligently and attentively adhere to these instructions, following each step carefully. Failure to do so may result in the loss of all your installations/configurations, necessitating a laborious repetition of those cumbersome tasks.``
 
 ## `THE CHOICE IS YOURS!`
 
