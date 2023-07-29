@@ -73,7 +73,7 @@ LB-01    ubuntu    37.932.72.138    running
 - **Such as: nginx, HAproxy, MySQL, UFW, DataDog and so on...**
 - **When you run the command, it may prompt for a PASSPHRASE, type in your passhrase (IF you have one) and just continue**
 
-# PLEASE NOTE:
+## PLEASE NOTE:
 - **REPLACE  `64.301.68.464` with your WEB-01's IP address**
 
 - **Start the Backup for WEB-01**
@@ -156,9 +156,9 @@ allowing you to access the files even after the server destruction.**
 
 
 
-- `If you require additional clarification or help, feel free to send a [mail](igbebestor72gmail.com)
-- You can also stay updated with other project guides and Tutorials by following me on **[GitHub](https://github.com/besthor)**
-- **Or check out and Subcribe to [My YouTube channel](https://www.youtube.com/channel/UCVLwEYPiV1omTB-8ZQAioyw).**`
+- **If you require additional clarification or help, feel free to send a [mail](igbebestor72gmail.com)**
+- **You can also stay updated with other project guides and Tutorials by following me on **[GitHub](https://github.com/besthor)**
+- **Or check out and Subcribe to [My YouTube channel](https://www.youtube.com/channel/UCVLwEYPiV1omTB-8ZQAioyw).**
 
 
 ## I'll be posting tutorials on how to upload files and applications from your local Ubuntu terminal to your new servers.
