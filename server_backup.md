@@ -6,13 +6,10 @@
 -  **Failure to do so may result in the loss of all your installations/configurations, necessitating a repetition of those cumbersome tasks.**
 
 ## `THE CHOICE IS YOURS!`
-
-![](https://thumbs.dreamstime.com/b/backup-restore-button-white-background-backup-restore-button-white-265066860.jpg)
-
-# 
+ 
 ### If you've received a notification that your web servers will be destroyed soon, it's essential to act quickly and back up your data to ensure you don't lose any valuable information. To back up your servers to your local Ubuntu terminal, you can use the `rsync` command, which is a powerful tool for syncing files between a local and remote location.
-
-
+#
+![](https://thumbs.dreamstime.com/b/backup-restore-button-white-background-backup-restore-button-white-265066860.jpg)
 
 ## Follow these steps to back up your servers to your local Ubuntu terminal:
 
