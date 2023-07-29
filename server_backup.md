@@ -156,7 +156,7 @@ allowing you to access the files even after the server destruction.**
 - **If you require additional clarification or help, feel free to send a [mail](igbebestor72gmail.com)**
 - **You can also stay updated with other project guides and Tutorials by following me on [GitHub](https://github.com/besthor)**
 - **Or check out and Subcribe to [My YouTube channel](https://www.youtube.com/channel/UCVLwEYPiV1omTB-8ZQAioyw).**
-- **PLease ensure you don't miss out on any content by subscribing**
+- **Please ensure you don't miss out on any content by subscribing**
 
 ## I'll be posting tutorials on how to upload files and applications from your local Ubuntu terminal to your newly created servers.
 
