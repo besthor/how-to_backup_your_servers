@@ -56,9 +56,9 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 - **When you run the command, it may prompt for a PASSPHRASE, type in your passhrase (IF you have one) and just continue**
 
 # PLEASE NOTE:
-`REPLACE  64.301.68.464  with your WEB-01's IP address`
+- **REPLACE  `64.301.68.464` with your WEB-01's IP address**
 
-### Start the Backup for WEB-01
+- **Start the Backup for WEB-01
 
 `rsync -avz  ubuntu@64.301.68.464:/etc/nginx :/etc/ufw :/etc/mysql  :/etc/datadog-agent :/var/www  /alx-system_engineering-devops/web-servers_backup/web-01_backup`
 
@@ -77,8 +77,8 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 - **When you run the command, it may prompt for a PASSPHRASE, type in your passhrase (IF you have one) and just continue**
 
 
-# `PLEASE NOTE:`
-`REPLACE  92.257.865.139  with your WEB-01's IP address`
+# PLEASE NOTE:
+- **REPLACE  `92.257.865.139`  with your WEB-02's IP address`
 
 - **Start the Backup for WEB-02**
 
@@ -93,7 +93,7 @@ OR RISK LOOSING ALL THE INSTALLATIONS/CONFIGURATIONS YOU'VE MADE AND PAINFULLY R
 
 
 # PLEASE NOTE:
-`REPLACE  37.932.72.138  with your LB-01's IP address`
+- REPLACE  `37.932.72.138`  with your LB-01's IP address
 
 - **When you run the command, it may prompt for a PASSPHRASE, type in your passhrase (IF you have one) and just continue**
 
