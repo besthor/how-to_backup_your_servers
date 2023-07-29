@@ -43,9 +43,10 @@ cd web-servers_backup
 sudo apt update
 ```
 
-- **Install rsync**
+- **Install `rsync`**
 
-```sudo apt install -y rsync
+```
+sudo apt install -y rsync
 ```
 
 - **Verify if installation was successfully done**
